@@ -16,4 +16,7 @@ sm_test(trait, tree, rep = 999)
 \description{
 Run SM test
 }
+\examples{
+sm_test()
+}
 

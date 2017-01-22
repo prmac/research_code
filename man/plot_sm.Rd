@@ -14,4 +14,7 @@ plot_sm(x, obs)
 \description{
 Plot SM output
 }
+\examples{
+plot_sm()
+}
 
