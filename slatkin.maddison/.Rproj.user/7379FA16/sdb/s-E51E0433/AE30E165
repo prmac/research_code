@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "importFrom(\"methods\", \"as\")\nimportFrom(\"stats\", \"median\")\n",
+    "created" : 1484771562091.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1374939960",
+    "id" : "AE30E165",
+    "lastKnownWriteTime" : 1485111639,
+    "last_content_update" : 1485111639872,
+    "path" : "~/Desktop/R_Packages/slatkin.maddison/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

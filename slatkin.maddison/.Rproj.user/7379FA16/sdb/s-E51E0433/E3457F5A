@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: slatkin.maddison\nType: Package\nTitle: Perform Slatkin Maddison Test on for Trait Transition Across Phylogeny\nVersion: 0.1.0\nAuthor: Paul McAdam\nDepends:\n    ggplot2,\n    ape,\n    geiger,\n    phangorn,\n    phylobase,\n    ade4,\n    methods\nDescription: Perform a test of trait association across phylogeny. Functions to\n    perform randomisations of a character on a tree and calculate a p-value.\nMaintainer: Paul McAdam <paul.mcadam@sky.com>\nLicense: Creative Commons Attribution-ShareAlike 4.0 International\nLazyData: TRUE\nRoxygenNote: 5.0.1\n",
+    "created" : 1485104733301.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3544559153",
+    "id" : "E3457F5A",
+    "lastKnownWriteTime" : 1485112922,
+    "last_content_update" : 1485112922921,
+    "path" : "~/Desktop/R_Packages/slatkin.maddison/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}
