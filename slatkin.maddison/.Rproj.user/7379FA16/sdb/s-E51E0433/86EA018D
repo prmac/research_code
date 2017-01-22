@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "#' Run SM test\n#'\n#' @param tree phylogeny to test\n#' @param data dataframe of trait data, first column must contain tip labels of phylogeny\n#' @param trait column name of trait of interest\n#' @param rep number of randomisations to perform\n#' run_sm()\n\nrun_sm <- function(tree, data, trait, rep=999) {\n  tree <- drop.tip(tree, tree[[\"tip.label\"]][! tree[[\"tip.label\"]] %in% data[, 1]])\n  data <- data[data[,1] %in% tree[[\"tip.label\"]], ]\n  tr4 <- phylo4d(tree, data, label.type=\"column\")\n  pruned <- as(extractTree(tr4), \"phylo\")\n  ldata <- tdata(tr4, \"tip\")\n  ldata <- ldata[pruned[[\"tip.label\"]], trait]\n  result <- sm_test(ldata, pruned, rep=rep)\n\n  result\n}\n\n",
+    "contents" : "#' Run SM test\n#'\n#' @param tree phylogeny to test\n#' @param data dataframe of trait data, first column must contain tip labels of phylogeny\n#' @param trait column name of trait of interest\n#' @param rep number of randomisations to perform\n#' @examples\n#' run_sm(example_tree, example_trait_data, \"Location\", rep=999)\n#' run_sm(example_tree, example_trait_data, \"Animal_human\", rep=999)\n\nrun_sm <- function(tree, data, trait, rep=999) {\n  tree <- drop.tip(tree, tree[[\"tip.label\"]][! tree[[\"tip.label\"]] %in% data[, 1]])\n  data <- data[data[,1] %in% tree[[\"tip.label\"]], ]\n  tr4 <- phylo4d(tree, data, label.type=\"column\")\n  pruned <- as(extractTree(tr4), \"phylo\")\n  ldata <- tdata(tr4, \"tip\")\n  ldata <- ldata[pruned[[\"tip.label\"]], trait]\n  result <- sm_test(ldata, pruned, rep=rep)\n\n  result\n}\n\n",
     "created" : 1484771538067.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1485804813",
+    "hash" : "1090444611",
     "id" : "86EA018D",
-    "lastKnownWriteTime" : 1485113420,
-    "last_content_update" : 1485113420691,
+    "lastKnownWriteTime" : 1485115249,
+    "last_content_update" : 1485115249087,
     "path" : "~/Desktop/R_Packages/slatkin.maddison/R/run_sm.R",
     "project_path" : "R/run_sm.R",
     "properties" : {

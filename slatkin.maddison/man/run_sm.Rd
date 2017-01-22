@@ -13,10 +13,13 @@ run_sm(tree, data, trait, rep = 999)
 
 \item{trait}{column name of trait of interest}
 
-\item{rep}{number of randomisations to perform
-run_sm()}
+\item{rep}{number of randomisations to perform}
 }
 \description{
 Run SM test
+}
+\examples{
+run_sm(example_tree, example_trait_data, "Location", rep=999)
+run_sm(example_tree, example_trait_data, "Animal_human", rep=999)
 }
 
