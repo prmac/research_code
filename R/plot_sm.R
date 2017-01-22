@@ -2,6 +2,7 @@
 #'
 #' @param x Predicted transitions under null model
 #' @param obs Observed transitions
+#' @export
 #' plot_sm()
 
 plot_sm <- function(x, obs) {

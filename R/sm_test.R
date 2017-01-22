@@ -3,6 +3,7 @@
 #' @param trait trait data to test
 #' @param tree phylogeny to test
 #' @param rep number of randomisations to perform
+#' @export
 #' sm_test()
 
 sm_test <- function(trait, tree, rep = 999) {

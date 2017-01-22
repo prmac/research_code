@@ -4,6 +4,7 @@
 #' @param data dataframe of trait data, first column must contain tip labels of phylogeny
 #' @param trait column name of trait of interest
 #' @param rep number of randomisations to perform
+#' @export
 #' @examples
 #' run_sm(example_tree, example_trait_data, "Location", rep=999)
 #' run_sm(example_tree, example_trait_data, "Animal_human", rep=999)
