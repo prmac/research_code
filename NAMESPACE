@@ -3,5 +3,3 @@
 export(plot_sm)
 export(run_sm)
 export(sm_test)
-importFrom("methods", "as")
-importFrom("stats", "median")
