@@ -11,8 +11,7 @@ sm_test(trait, tree, rep = 999)
 
 \item{tree}{phylogeny to test}
 
-\item{rep}{number of randomisations to perform
-sm_test()}
+\item{rep}{number of randomisations to perform}
 }
 \description{
 Run SM test

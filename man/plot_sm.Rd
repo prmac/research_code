@@ -9,8 +9,7 @@ plot_sm(x, obs)
 \arguments{
 \item{x}{Predicted transitions under null model}
 
-\item{obs}{Observed transitions
-plot_sm()}
+\item{obs}{Observed transitions}
 }
 \description{
 Plot SM output
