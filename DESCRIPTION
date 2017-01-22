@@ -15,5 +15,5 @@ Description: Perform a test of trait association across phylogeny. Functions to
     perform randomisations of a character on a tree and calculate a p-value.
 Maintainer: Paul McAdam <paul.mcadam@sky.com>
 License: Creative Commons Attribution-ShareAlike 4.0 International
-LazyData: TRUE
+LazyData: true
 RoxygenNote: 5.0.1
